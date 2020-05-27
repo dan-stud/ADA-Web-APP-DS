@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Berkshire Swash";
+  src: local("BerkshireSwash"), url("./font/BerkshireSwash-Regular.ttf") format("truetype");
+}
+
+div.footer {
+  display: flex;
+  justify-content: center;  
+  position:absolute;
+  bottom:0;
+  width:100%;  
+  background-color: black;
+}
+
+h1 {
+  font-family: "Berkshire Swash";
+  color: #B0BFCA;
+  font-size: 4em;
+  text-align: center;
+  background-color: black;
+  margin: 0;
+  padding: 0.3em;
+  padding-top: 0.5em;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

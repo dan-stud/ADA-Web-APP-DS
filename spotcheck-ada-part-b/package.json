@@ -1,5 +1,5 @@
 {
-  "name": "spotcheck-ada-app",
+  "name": "spotcheck-ada-part-b",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -33,14 +33,7 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dan-stud/ADA-Web-APP-DS.git"
-  },
-  "author": "Daniel Studders",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dan-stud/ADA-Web-APP-DS/issues"
-  },
-  "homepage": "https://github.com/dan-stud/ADA-Web-APP-DS#readme"
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }

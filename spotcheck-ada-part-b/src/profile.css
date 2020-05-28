@@ -1,0 +1,13 @@
+div.user-img-container {
+    text-align: center;
+    margin: 0.5em 0 2em 0;
+}
+
+.user-profile-img {
+    height:198px;
+    width: 234px;
+}
+
+p {
+    text-align: center;
+}

@@ -12,8 +12,6 @@ import insert from "./img/insert-spot.png"
 
 class Add extends Component {
   render() {
-
-
     return (
       <div className="Event">
 
@@ -38,17 +36,37 @@ class Add extends Component {
 
             <div className="spot-info">
               <div className="info">
-              <label for="sdesc"> Spot Description: </label><br></br>
-                <input type="text" id="sdesc" name="sdesc" value="add"/>
+                <label for="sdesc"> Spot Description: </label><br></br>
+                <textarea type="text" id="sdesc" name="sdesc" />
               </div>
 
               <div className="info">
-                <b> Spot Type </b>
-                
+                <label for="sdesc"> Spot Type: </label><br></br>
+                <select name="cars" size="4">
+                  <option value="stairset" icon="insert">Stairset</option>
+                  <option value="skatepark">Skatepark</option>
+                  <option value="hillbomb">HillBomb</option>
+                  <option value="stair-rail">Stairset w/ Handrail</option>
+                </select>
               </div>
+              <div className="scroll-level">
+                <div className="info">
 
-              <div className="info">
-                <b> Spot Difficulty Level </b>
+                  <label for="sdesc"> Spot Level: </label><br></br>
+                  <div className = "radio-container">
+                  <input type="radio" id="beginner" className="diff" value="beginner"></input>
+                  <span className="checkmark" ></span>
+                  <label for="male">Beginner</label><br></br>
+                  <input type="radio" id="intermediate" className="diff" value="intermediate"></input>
+                  <span className="checkmark" ></span>
+                  <label for="female">intermediate</label><br></br>
+                  <input type="radio" id="pro" className="diff" value="pro"></input>
+                  <span className="checkmark" ></span>
+                  <label for="other">Pro</label>
+
+                  </div>
+
+                </div>
               </div>
 
             </div>

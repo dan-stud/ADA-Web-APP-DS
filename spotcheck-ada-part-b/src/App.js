@@ -16,7 +16,7 @@ function App() {
           className="homepage-logo"
           alt="logo"
         >
-          <h1> Spotchecker </h1>
+          <h1 className="header-front"> Spotchecker </h1>
            </div>
       </header>
       <div className="login-container">

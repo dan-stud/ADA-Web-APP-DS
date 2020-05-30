@@ -15,11 +15,11 @@ class Map extends Component {
       <div className="Map">
 
         <div className="header">
-          <h1 className="header-title">Spotchecker </h1>
+          <h1 className="header-title-map">Spotchecker</h1>
         </div>
 
         <div className="main-page-map">
-
+        
         </div>
 
         <div className="footer">

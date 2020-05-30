@@ -6,10 +6,11 @@
 div.footer {
   display: flex;
   justify-content: center;  
-  position:absolute;
+  position:fixed;
   bottom:0;
   width:100%;  
   background-color: black;
+  height: auto;
 }
 
 h1 {
@@ -18,12 +19,16 @@ h1 {
   font-size: 4em;
   text-align: center;
   background-color: black;
-  margin: 0;
-  padding: 0.3em;
-  padding-top: 0.5em;
+  margin-top: -4vh;
+  padding: 0.4em 0 0.2em 0;
+  position: fixed;
+  width: 100%;
 }
 
-
+.footer-icon:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
 
 body {
   margin: 0;

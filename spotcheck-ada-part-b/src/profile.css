@@ -1,6 +1,12 @@
 div.user-img-container {
     text-align: center;
-    margin: 0.5em 0 2em 0;
+    margin-bottom: 2em;
+    margin-top: 6em;
+}
+
+.user-img-container:hover {
+    opacity: 50%;
+    cursor: pointer;
 }
 
 .user-profile-img {
@@ -10,4 +16,13 @@ div.user-img-container {
 
 p {
     text-align: center;
+}
+
+.profile-bio {
+    text-align: center;
+    font-family: "Berkshire Swash";
+}
+
+.sub-title {
+    font-family: "Berkshire Swash";
 }

@@ -19,6 +19,11 @@ class Profile extends Component {
           <h1 className="header-title">Spotchecker </h1>
         </div>
 
+        <div className="subpage-header">
+          <div className="subpage-header-title">Profile</div>
+        </div>
+
+
         <div className="profile-top-bar">
 
           <div className="user-img-container">
@@ -32,10 +37,17 @@ class Profile extends Component {
 
           <div className="customer-info">
             <p>
-            <b> Name: </b> <p> Joe Flynn</p>
-            <b> Email: </b> <p> Markdid911@gmail.com</p>
-            <b> Bio: </b> <p> insert Bio Here </p>
+            <p className="sub-title"> Name: </p> <p> Joe Flynn</p>
+            <p className="sub-title">  Email: </p> <p> Markdid911@gmail.com</p>
+
+            <form>
+                <div className="profile-bio">
+                  <label for="user-bio"> Bio: </label><br></br>
+                  <textarea name="user-bio" cols="40" rows="5" value="Add bio here..."></textarea>
+                </div>
+              </form>
             </p>
+
           </div>
 
           {/* <div className="customer-info">
